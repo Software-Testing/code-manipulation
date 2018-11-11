@@ -1,3 +1,5 @@
+package m2.vv.tutorial;
+
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;

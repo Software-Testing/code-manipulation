@@ -1,3 +1,5 @@
+package m2.vv.tutorial;
+
 import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;

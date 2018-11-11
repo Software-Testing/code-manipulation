@@ -1,3 +1,5 @@
+package m2.vv.tutorial;
+
 import spoon.Launcher;
 import spoon.reflect.CtModel;
 import spoon.reflect.declaration.CtType;
