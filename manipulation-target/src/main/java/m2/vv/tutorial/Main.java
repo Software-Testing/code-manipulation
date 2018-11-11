@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println(Pair.cos(Pair.var(Math.PI)).getDerivative());
 
+        System.out.print(Functions.composite(3));
+
     }
 }

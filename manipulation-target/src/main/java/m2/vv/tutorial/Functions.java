@@ -26,4 +26,13 @@ public class Functions {
         return Math.sin(x) + Math.sin(y);
     }
 
+    public static void main(String... args) {
+        System.out.println(twice(1));
+        System.out.println(twiceplusone(2));
+        System.out.println(exp1(3));
+        System.out.println(doublesin(4));
+        System.out.println(composite(5));
+        System.out.println(sc(6, 7));
+    }
+
 }
