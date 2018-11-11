@@ -14,7 +14,7 @@ The `manipulation-target` module contains the code that will be used as
 input for the examples. The three remaning modules contain the examples,
 one for each library.
 
-Each example contains two classes:
+Each example contains the following classes:
 * `MethodPrinter`: This class will search the `Functions` class and will
 print all methods of this class.
 * `ClassGenerator`: This class will generate a `HelloWorld` class such
@@ -26,6 +26,9 @@ print all methods of this class.
         }
     }
     ```
-
+* `Tracer`: Instruments each method declared in the `Functions` class to
+    print its name and description before the execution.
+* `InstructionModifier`: Replaces the multiplication in the `twice`
+    method of the `Functions` class by an addition.
 
 
